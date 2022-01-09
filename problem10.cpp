@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-bool is_prime(int n) {
+bool is_prime(const int& n) {
     if (n <= 1) {
         return false;
     }
